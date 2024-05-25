@@ -113,13 +113,13 @@ new_EFF, T_values2 = calculate_EFF(lambda_1_new, lambda_2_new, label='New EFF')
 diff_EFF = np.abs(original_EFF - new_EFF)
 div_diff_EFF = diff_EFF / original_EFF * 100
 
-
+# График EFF и new EFF
 plt.figure(figsize=(10, 6))
-plt.plot(T_values, original_EFF, marker='o')
+plt.plot(T_values, original_EFF, marker='1')
 plt.title('EFF and new EFF vs T')
-plt.xlabel('Temperature (T)')
-plt.ylabel('EFF')
-plt.plot(T_values2, new_EFF, marker='o', color='green')
+plt.xlabel('Temperature' + r' ($Kelvins$)')
+plt.ylabel('EFF (%)')
+plt.plot(T_values2, new_EFF, marker='x', color='green')
 plt.legend(['Original EFF', 'New EFF'])
 plt.grid(True, alpha=0.2, linestyle=':')
 plt.show()
@@ -129,20 +129,20 @@ print(f"INFO: New EFF: {new_EFF}")
 print(f"INFO: Difference in EFF: {diff_EFF}")
 print(f"INFO: div_diff_EFF: {div_diff_EFF}")
 
+# График модуля отклонения
 plt.figure(figsize=(10, 6))
-plt.plot(T_values, diff_EFF, marker='.', color='red')
+plt.plot(T_values, diff_EFF, marker="1", color='red')
 plt.title('Difference in EFF vs T')
-plt.xlabel('Temperature (T)')
+plt.xlabel('Temperature' + r' ($Kelvins$)')
 plt.ylabel('Difference in EFF')
 plt.grid(True, alpha=0.2, linestyle=':')
-
 plt.show()
 
+# Относительная погрешность
 plt.figure(figsize=(10, 6))
 plt.plot(T_values, div_diff_EFF, marker='.', color='magenta')
 plt.title('Difference in EFF (relatively) vs T')
 plt.xlabel('Temperature' + r' ($Kelvins$)')
 plt.ylabel('Difference in EFF (%)')
 plt.grid(True, alpha=0.2, linestyle=':')
-
 plt.show()
