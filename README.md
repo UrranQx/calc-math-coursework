@@ -1,3 +1,14 @@
+# 0. Рекомендация
+Откройте jupiter notebook у себя или в гугл коллабе \
+https://colab.research.google.com/drive/1fobS6dlVt4u7gteZJ1jGVdz_dDoDCFIX?usp=sharing\
+
+**Ведь тут по большей степени выдержка материала из итогового отчёта**  
+
+Которые вы сами можете найти тут 
+
+[CourseworkReport.docx](CourseworkReport.docx)
+
+[CourseworkReport.pdf](%CA%F3%F0%F1%EE%E2%EE%E9.%C3%E0%E9%ED%F3%F2%E4%E8%ED%EE%E2.%D1%E2%E5%F2%E8%EC%EE%F1%F2%FC%C0%E1%F1%EE%EB%FE%F2%ED%EE%D7%E5%F0%ED%EE%E3%EE%D2%E5%EB%E0.pdf)
 
 # 1. Постановка задачи
 
@@ -17,8 +28,7 @@ $$
 
 Тогда светимость (в процентах) рассчитывается по формуле:
 
-$$
-{EFF = \frac{E_{в}}{E}*100\% = \frac{64.77}{T^{4}}*\int_{\lambda_{1}}^{\lambda_{2}}\frac{dx}{x^{5}\left( e^{\frac{1.432}{Tx}} - 1 \right)}}$$
+$${EFF = \frac{E_{в}}{E}*100\% = \frac{64.77}{T^{4}}*\int_{\lambda_{1}}^{\lambda_{2}}\frac{dx}{x^{5}\left( e^{\frac{1.432}{Tx}} - 1 \right)}}$$
 
 Значения длин волн ($\lambda_{1}$, $\lambda_{2}$) задаются следующим
 образом:
