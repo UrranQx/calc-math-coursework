@@ -7,9 +7,9 @@ https://colab.research.google.com/drive/1fobS6dlVt4u7gteZJ1jGVdz_dDoDCFIX?usp=sh
 
 Которые вы сами можете найти тут
 
-[CourseworkReport.docx](CourseworkReport.docx)
+[CourseworkReport.docx](Курсовой.Гайнутдинов.СветимостьАбсолютноЧерногоТела.docx)
 
-[CourseworkReport.pdf](%CA%F3%F0%F1%EE%E2%EE%E9.%C3%E0%E9%ED%F3%F2%E4%E8%ED%EE%E2.%D1%E2%E5%F2%E8%EC%EE%F1%F2%FC%C0%E1%F1%EE%EB%FE%F2%ED%EE%D7%E5%F0%ED%EE%E3%EE%D2%E5%EB%E0.pdf)
+[CourseworkReport.pdf](Курсовой.Гайнутдинов.СветимостьАбсолютноЧерногоТела.pdf)
 
 # 1. Постановка задачи
 
